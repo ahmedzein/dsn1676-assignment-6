@@ -18,12 +18,12 @@ $btnShowHide.on('click', function()  {
     $box.toggleClass ('box');
 });
 
-$btnMove =$('click', function() {
-    $diamond.toggleClass ('diamond');
+$btnMove.on =$('click', function() {
+    $diamond.toggleClass ('js-diamond');
 });
 
 $btnCollapseExpand.on('click', function() {
-    $panel.toggleClass('panel');
+    $panel.toggleClass('js-panel');
 });
 
 $btnBounce.on('click', function() {
